@@ -1,5 +1,5 @@
 {
-    "name": "Translate Company Information",
+    "name": "Terms and Conditionis Format",
     "version": "1.0",
     "depends": ['base',
                 'crm',
