@@ -2,7 +2,7 @@
 <odoo>
     <template id="view_order_form" inherit_id="sale.view_order_form">
         <xpath expr="//field[@name='note']" position="attribute">
-            <attribute name="class"></attribute>
+            <attribute name="class" />
         </xpath>
     </template>
 </odoo>
