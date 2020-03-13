@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="view_order_form" inherit_id="sale.view_order_form">
+        <xpan expr="//field[@name='note']" position="replace" />
         <xpath expr="//div[@class='oe_clear']" position="after">
             <field name="note" class="oe_inline" placeholder="Terms and conditions... (note: you can setup default ones in the Configuration menu)"/>
         </xpath>
