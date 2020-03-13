@@ -7,6 +7,7 @@
                 ],
     'data': [
         'views/sale_report_templates.xml',
+        'views/sale.xml',
     ],
     'author': 'Safyric Co., Ltd.',
     'license': 'AGPL-3',
