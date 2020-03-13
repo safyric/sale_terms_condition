@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="report_saleorder_document">
-        <xpath expr="//p[@t-field='doc.note']" position="replace">
-            <t t-if="doc.note">
+        <xpath expr="//p[@t-field='doc.note']" position="replace" />
+            <!--<t t-if="doc.note">
                 <p style="page-break-before:always;"/>
                 <h2>Terms &amp; Conditions</h2>
                 <p t-field="doc.note"/>
-            </t>
-        </xpath>
+            </t>-->
     </template>
 </odoo>
