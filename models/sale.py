@@ -3,4 +3,4 @@ from odoo import fields, models
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    note = fields.Html('Terms and conditions')
+    note = fields.Html(string='Terms and conditions', default=_default_note)
