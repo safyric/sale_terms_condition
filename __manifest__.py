@@ -5,6 +5,9 @@
                 'crm',
                 'sale',
                 ],
+    'data': [
+        'views/sale_report_templates.xml',
+    ],
     'author': 'Safyric Co., Ltd.',
     'license': 'AGPL-3',
     'installable': True,
