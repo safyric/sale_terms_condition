@@ -2,7 +2,7 @@
 <odoo>
     <template id="report_saleorder_document" inherit_id="sale.report_saleorder_document">
         <xpath expr="//p[@t-field='doc.note']" position="replace" />
-        <xpath expr="//div[@name='signature']" position="after">
+        <xpath expr="//page[@name='order_lines']" position="inside">
             <t t-if="doc.note">
                 <p style="page-break-before:always;"/>
                 <h2>Terms &amp; Conditions</h2>
