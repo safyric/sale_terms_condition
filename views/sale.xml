@@ -5,11 +5,11 @@
     <field name="model">sale.order</field>
     <field name="inherit_id" ref="sale.view_order_form"/>
     <field name="arch" type="xml">
-        <xpath expr="//field[@name='note']" position="before">
-            <h2><label for="note" string="Terms and Conditions"/></h2>
-        </xpath>
-        <xpath expr="//field[@name='note']" position="attributes">
-            <attribute name="class"/>
+        <xpath expr="//field[@name='note']" position="replace">
+            <div>
+                <h2><label for="note" string="Terms and Conditions"/></h2>
+                <p t-field="doc.note" />
+            </div>
         </xpath>
     </field>
 </record>
