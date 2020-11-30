@@ -8,7 +8,7 @@
         <xpath expr="//field[@name='note']" position="replace">
             <div>
                 <h2><label for="note" string="Terms and Conditions"/></h2>
-                <p t-field="doc.note" />
+                <field name="note" class="oe_inline" placeholder="Terms and conditions... (note: you can setup default ones in the Configuration menu)"/>
             </div>
         </xpath>
     </field>
